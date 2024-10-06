@@ -43,7 +43,7 @@ apiRequest = () => {
   const url =
     "https://api.unsplash.com/search/photos/?query=" +
     input.value +
-    "&per_page=12&client_id=7ki5rge3bYGo39iAHoihB2N8huavXVfRrP7bCTH4Jnw";
+    "&per_page=12&client_id=[your_api_key]";
 
   fetch(url)
     .then((response) => {
